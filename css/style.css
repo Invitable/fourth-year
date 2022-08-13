@@ -1,0 +1,90 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+.banner {
+    background-image: linear-gradient(20deg, #9ce2eabd, #c2e3e9ba), url(images/banner10.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+
+.banner-text {
+
+    padding-top: 80px;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.select-area {
+    border-radius: 20px;
+    margin-left: 24.5%;
+    height: 120px;
+    width: 51%;
+    background-color: white;
+}
+
+.select select {
+    font-size: 13px;
+}
+
+.single-select {
+    width: 180px;
+    height: 50px;
+}
+
+option {
+    font-size: 15px;
+}
+
+.select button {
+    background-color: rgb(36, 93, 114);
+    color: white;
+}
+
+.nav-link i {
+    margin-right: 8px;
+}
+
+/*************************************************************************************
+*****************************************second-section-------------------------------*/
+
+.heading-2 {
+    text-align: center;
+}
+
+.all-category {
+    width: 88%;
+    margin-left: 6%;
+}
+
+.singe-icon {
+    margin: 30px;
+    text-align: center;
+}
+
+.singe-icon a {
+
+    text-decoration: 0;
+    color: rgb(149, 159, 12);
+}
+
+.singe-icon a img {
+
+    height: 80px;
+    width: 110px;
+}
+
+.singe-icon a h6 {
+    margin-top: 10px;
+}
