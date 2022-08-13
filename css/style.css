@@ -2,9 +2,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-header {
-    margin-bottom: 60px;
-}
+
 
 .banner {
     background-image: linear-gradient(20deg, #9ce2eabd, #c2e3e9ba), url(images/banner10.jpg);
@@ -60,6 +58,7 @@ option {
 *****************************************second-section-------------------------------*/
 
 .heading-2 {
+    color: gray;
     text-align: center;
 }
 
@@ -81,10 +80,49 @@ option {
 
 .singe-icon a img {
 
-    height: 80px;
-    width: 110px;
+    height: 70px;
+    width: 100px;
 }
 
 .singe-icon a h6 {
     margin-top: 10px;
+}
+
+/*******************************************************************************************************************
+*************************************Why apartment is unique from other********************************************/
+.section-3 {
+    margin-top: 100px;
+}
+
+.section-3 h2 {
+    color: gray;
+    text-align: center;
+}
+
+.all-article {
+    margin-left: 10%;
+    width: 80%;
+    margin-right: 10%;
+}
+
+.single-article {
+    width: 25%;
+    height: 380px;
+    background-color: lightcyan;
+    box-shadow: 0px 0px 5px gray;
+    margin: 30px;
+}
+
+.single-article button {
+    margin-top: 30px;
+    margin-left: 85px;
+}
+
+.single-article p {
+    margin-top: 30px;
+}
+
+.single-article button a {
+    text-decoration: none;
+    color: white;
 }
