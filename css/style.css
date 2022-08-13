@@ -33,6 +33,7 @@ body {
 }
 
 .select select {
+    color: gray;
     font-size: 13px;
 }
 
@@ -42,6 +43,7 @@ body {
 }
 
 option {
+    color: gray;
     font-size: 15px;
 }
 
@@ -165,6 +167,10 @@ footer {
     color: white;
 }
 
-.tata h4 {
-    margin: 20px;
+.tata h5 {
+    margin: 10px 20px;
+}
+
+.icon {
+    margin-left: 20px;
 }
