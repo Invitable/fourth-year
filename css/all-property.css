@@ -1,0 +1,105 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.nav-link i {
+    margin-right: 8px;
+}
+
+/************************************************
+********************banner*******************/
+.banner-text {
+
+    padding-top: 80px;
+}
+
+.text {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.text h1 {
+    color: white;
+}
+
+.select-area {
+
+    border-radius: 5px;
+    margin-left: 3.7%;
+    height: 120px;
+    width: 92.6%;
+    background-color: whitesmoke;
+}
+
+.select select {
+    color: gray;
+    font-size: 13px;
+}
+
+.single-select {
+    width: 180px;
+    height: 50px;
+}
+
+option {
+    color: gray;
+    font-size: 15px;
+}
+
+.select button {
+    background-color: rgb(21, 156, 205);
+    color: white;
+}
+
+
+
+.section-2 {
+    width: 80%;
+    margin-bottom: 50px;
+}
+
+/************************************************************
+*******************footer************************************/
+footer {
+    margin-top: 40px;
+    height: 280px;
+    color: aliceblue;
+    background-color: #1e81b0;
+}
+
+.end {
+    padding-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.tata {
+    width: 30%;
+    margin-left: 70px;
+    margin-right: 90px;
+}
+
+.tata h3 {
+    margin-left: 20px;
+}
+
+.tata p {
+    margin-left: 20px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.tata a {
+    text-decoration: none;
+    color: white;
+}
+
+.tata h5 {
+    margin: 10px 20px;
+}
+
+.icon {
+    margin-left: 20px;
+}
