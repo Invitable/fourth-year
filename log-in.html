@@ -121,30 +121,30 @@
     <div class="conatiner-fluid ">
         <div class="row justify-content-center mt-5 w-100">
             <div class="col-lg-4 col-md-6 col-sm-12">
-                <form action="" method="post">
+                <form action="">
                     <div class="mb-3">
                         <h3>Log-In here</h3>
                     </div>
                     <div class="mb-3">
                         <label for="r_email" class="input-label"> Email :</label>
-                        <input type="text" class="form-control" name="r_email" required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="r_mobile" class="input-label"> mobile :</label>
-                        <input type="text" class="form-control" name="r_mobile" required>
+                        <input id="inputEmailLogin" type="text" class="form-control" name="r_email" required>
                     </div>
                     <div class="mb-3">
                         <label for="r_con_pass" class="input-label">Password :</label>
-                        <input type="text" class="form-control" name="r_con_pass" required>
+                        <input id="inputPasswordLogin" type="password" class="form-control" name="r_con_pass" required>
                     </div>
-
-                    <button type="submit" class="btn" name="submit">Log-In</button>
+                    <input type="checkbox" id="remember" name="checkbox" value="">
+                    <label for="vehicle1"> Remember me</label><br><br>
+                    <button id="signInButton" type="submit" class="btn" name="submit">Log-In</button>
                     <a href="register.html">Register here</a>
                 </form>
             </div>
         </div>
     </div>
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.4/firebase-auth.js"></script>
+    <script src="login.js"></script>
 </body>
 
 </html>
