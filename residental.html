@@ -18,13 +18,68 @@
     <style>
         .banner {
             border-radius: 10px;
-            background-image: linear-gradient(50deg, #26484bb5, #2e5e678f), url(images/add-banner5.jpg);
+            /* background-image: linear-gradient(50deg, #26484bb5, #2e5e678f), url(images/add-banner5.jpg); */
+            background-image: linear-gradient(rgb(26, 128, 128), rgb(52, 52, 169));
             background-size: cover;
             background-repeat: no-repeat;
             width: 100%;
             height: 400px;
             position: relative;
             margin-bottom: 100px;
+        }
+
+        .banner-text {
+
+            padding-top: 80px;
+        }
+
+        .text {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .text h1 {
+            color: white;
+        }
+
+        .select-area {
+
+            border-radius: 5px;
+            margin-left: 20%;
+            height: 120px;
+            width: 60%;
+            background-color: whitesmoke;
+        }
+
+        .select select {
+            color: gray;
+            font-size: 13px;
+        }
+
+        .single-select {
+            width: 180px;
+            height: 50px;
+        }
+
+        option {
+            color: gray;
+            font-size: 15px;
+        }
+
+        .select button {
+            background-color: rgb(21, 156, 205);
+            color: white;
+        }
+
+
+
+        .section-2 {
+            width: 80%;
+            margin-bottom: 50px;
+        }
+
+        .card img {
+            height: 230px;
         }
     </style>
 </head>
@@ -85,24 +140,12 @@
         <div class="banner container">
             <div class="banner-text">
                 <div class="text">
-                    <h1>FIND YOUR PROPERTY</h1>
+                    <h1>FIND FURNISHED APARTMENT</h1>
 
                 </div>
                 <div class="select-area">
                     <!-- class="d-flex" role="search" -->
                     <form class="d-flex">
-                        <div class="select  m-lg-3">
-                            <label for="division">Division:</label>
-                            <select class="form-select form-select-lg mb-3 division single-select"
-                                aria-label=".form-select-lg example">
-                                <option value="1">Dhaka</option>
-                                <option selected>Sylhet</option>
-                                <option value="2">Chittagong</option>
-                                <option value="3">Khula</option>
-                                <option value="4">Rajshahi</option>
-                                <option value="5">Rangpur</option>
-                            </select>
-                        </div>
 
                         <div class="select m-lg-3">
                             <label for="area">Area:</label>
@@ -118,16 +161,7 @@
                                 <option value="2">Lamabazar</option>
                             </select>
                         </div>
-                        <div class="select  m-lg-3">
-                            <label for="type">Type Requirement:</label>
-                            <select class="form-select form-select-lg mb-3 type single-select"
-                                aria-label=".form-select-lg example">
-                                <option selected>Comercial space</option>
-                                <option value="1">Resturant space</option>
-                                <option value="2">Shop space</option>
-                                <option value="3">Living space</option>
-                            </select>
-                        </div>
+
                         <div class="select m-lg-3">
                             <label for="area">Minimum price:</label>
                             <select class="form-select form-select-lg mb-3 area single-select"
@@ -174,7 +208,7 @@
             <div class="row gx-4 gy-3 row-cols-lg-3 row-cols-md-3 row-cols-sm-2 row-cols-1">
                 <div class="col">
                     <div class="card">
-                        <img src="images/all-property/room-1.jpg" alt="">
+                        <img src="images/residental/1.jpg" alt="">
                         <div class="card-body">
                             <h6 class="card-title"><strong>Discription: </strong> 3600 Sq Ft Fully Furnished Commercial
                                 Space Vacant For Rent In Sylhet.
@@ -187,7 +221,7 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="images/all-property/room-2.jpg" alt="">
+                        <img src="images/residental/2.jpg" alt="">
                         <div class="card-body">
                             <h6 class="card-title"><strong>Discription: </strong> 3600 Sq Ft Fully Furnished Commercial
                                 Space Vacant For Rent In Sylhet.
@@ -200,7 +234,7 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="images/all-property/room-3.jpg" alt="">
+                        <img src="images/residental/3.jpg" alt="">
                         <div class="card-body">
                             <h6 class="card-title"><strong>Discription: </strong> 3600 Sq Ft Fully Furnished Commercial
                                 Space Vacant For Rent In Sylhet.
@@ -213,7 +247,7 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="images/all-property/room-4.jpg" alt="">
+                        <img src="images/residental/4.jpg" alt="">
                         <div class="card-body">
                             <h6 class="card-title"><strong>Discription: </strong> 3600 Sq Ft Fully Furnished Commercial
                                 Space Vacant For Rent In Sylhet.
@@ -226,7 +260,7 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="images/all-property/room-5.jpg" alt="">
+                        <img src="images/residental/5.jpg" alt="">
                         <div class="card-body">
                             <h6 class="card-title"><strong>Discription: </strong> 3600 Sq Ft Fully Furnished Commercial
                                 Space Vacant For Rent In Sylhet.
@@ -239,7 +273,7 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="images/all-property/room-6.jpg" alt="">
+                        <img src="images/residental/6.jpg" alt="">
                         <div class="card-body">
                             <h6 class="card-title"><strong>Discription: </strong> 3600 Sq Ft Fully Furnished Commercial
                                 Space Vacant For Rent In Sylhet.
@@ -252,7 +286,7 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="images/all-property/room-7.jpg" alt="">
+                        <img src="images/residental/7.jpg" alt="">
                         <div class="card-body">
                             <h6 class="card-title"><strong>Discription: </strong> 3600 Sq Ft Fully Furnished Commercial
                                 Space Vacant For Rent In Sylhet.
@@ -265,7 +299,7 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="images/all-property/room-8.jpg" alt="">
+                        <img src="images/residental/8.jpg" alt="">
                         <div class="card-body">
                             <h6 class="card-title"><strong>Discription: </strong> 3600 Sq Ft Fully Furnished Commercial
                                 Space Vacant For Rent In Sylhet.
@@ -278,7 +312,7 @@
                 </div>
                 <div class="col">
                     <div class="card">
-                        <img src="images/all-property/room-9.jpg" alt="">
+                        <img src="images/residental/9.jpg" alt="">
                         <div class="card-body">
                             <h6 class="card-title"><strong>Discription: </strong> 3600 Sq Ft Fully Furnished Commercial
                                 Space Vacant For Rent In Sylhet.
