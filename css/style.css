@@ -2,7 +2,9 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-
+.nav-link i {
+    margin-right: 8px;
+}
 
 .banner {
     background-image: linear-gradient(20deg, #9ce2eabd, #c2e3e9ba), url(images/banner10.jpg);
@@ -11,6 +13,7 @@ body {
     width: 100%;
     height: 500px;
     position: relative;
+    margin-bottom: 100px;
 }
 
 
@@ -22,7 +25,7 @@ body {
 .text {
     text-align: center;
     margin-bottom: 40px;
-    color: lightgray;
+    color: black;
 }
 
 .select-area {
@@ -33,14 +36,13 @@ body {
     background-color: white;
 }
 
-.select select {
-    color: gray;
-    font-size: 13px;
-}
 
 .single-select {
+    color: gray;
+    font-size: 13px;
     width: 180px;
     height: 50px;
+
 }
 
 option {
@@ -53,9 +55,7 @@ option {
     color: white;
 }
 
-.nav-link i {
-    margin-right: 8px;
-}
+
 
 /*************************************************************************************
 *****************************************second-section-------------------------------*/
@@ -91,13 +91,66 @@ option {
     margin-top: 10px;
 }
 
-/*******************************************************************************************************************
-*************************************Why apartment is unique from other********************************************/
-.section-3 {
+/*****************************************Third section********************************************/
+.special-category {
+    /* background-image: linear-gradient(whitesmoke, white, whitesmoke); */
+    height: 600px;
+    width: 100%;
     margin-top: 100px;
 }
 
-.section-3 h2 {
+.special-category h2 {
+
+    padding-top: 3%;
+    margin-left: 40%;
+
+}
+
+
+.text-block {
+
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 3%;
+    background-color: transparent;
+
+}
+
+
+.special-category .card img {
+    height: 200px;
+}
+
+.special-category .card button a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.special-category .card button {
+
+    background-color: rgb(16, 120, 120);
+}
+
+.special-category .card button:hover {
+    background-color: rgb(109, 11, 11);
+}
+
+.text-block .card {
+    height: 450px;
+    background-color: transparent;
+}
+
+.card-body:hover {
+    background-color: rgb(218, 236, 243);
+}
+
+/*******************************************************************************************************************
+*************************************Why apartment is unique from other********************************************/
+.section-4 {
+    margin-top: 100px;
+}
+
+.section-4 h2 {
     color: gray;
     text-align: center;
 }

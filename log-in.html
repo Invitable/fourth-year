@@ -68,51 +68,52 @@
     <!----------------------------------------------------------
     ---------------------------navbar--------------------------->
     <header>
-        <nav class="navbar navbar-expand-sm" style="background-color: whitesmoke;">
-            <div class="container">
-                <a class="navbar-brand my-3 fs-4" href="index.html">Apartment</a>
+        <nav class="navbar navbar-expand-lg" style="background-color: whitesmoke;">
+            <div class="container container-fluid ">
+                <a class="navbar-brand" href="index.html">Apartment</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item m-3">
-                        <a class="nav-link active" aria-current="page" href="all-property.html">All Property</a>
-                    </li>
-                    <li class="nav-item dropdown m-3">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Guides
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Area Guides</a></li>
-                            <li><a class="dropdown-item" href="#">Buy/Sell Guides</a></li>
-                            <li><a class="dropdown-item" href="#">Others</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item m-3">
-                        <a class="nav-link active" aria-current="page" href="add-property.html">Add Property</a>
-                    </li>
-                    <li class="nav-item dropdown m-3">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Home Loan</a></li>
-                            <li><a class="dropdown-item" href="#">Interior</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-
-                </ul>
-                <ul class="navbar-nav m-3">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="register.html"><i
-                                class="fa-solid fa-circle-user m-2"></i>Register</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" style="margin-left: 36%;" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active" aria-current="page" href="all-property.html">All property</a>
+                        </li>
+                        <li class="nav-item dropdown mx-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Guides
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="area_guide.html">Area Guides</a></li>
+                                <li><a class="dropdown-item" href="#">Buy/Sell Guides</a></li>
+                                <li><a class="dropdown-item" href="#">Others</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active" href="add-property.html">Add property</a>
+                        </li>
+                        <li class="nav-item dropdown mx-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Home Loan</a></li>
+                                <li><a class="dropdown-item" href="#">Interior</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav m-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="log-in.html"><i
+                                    class="fa-solid fa-circle-user m-2"></i>Register</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -127,11 +128,11 @@
                     </div>
                     <div class="mb-3">
                         <label for="r_email" class="input-label"> Email :</label>
-                        <input id="inputEmailLogin" type="text" class="form-control" name="r_email" required>
+                        <input id="inputEmailLogin" type="email" class="form-control" name="r_email" required>
                     </div>
                     <div class="mb-3">
-                        <label for="r_con_pass" class="input-label">Password :</label>
-                        <input id="inputPasswordLogin" type="password" class="form-control" name="r_con_pass" required>
+                        <label for="password" class="input-label">Password :</label>
+                        <input id="inputPasswordLogin" type="password" class="form-control" name="password" required>
                     </div>
                     <input type="checkbox" id="remember" name="checkbox" value="">
                     <label for="vehicle1"> Remember me</label><br><br>

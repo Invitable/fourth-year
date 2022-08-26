@@ -16,8 +16,8 @@
     <title>Apartment</title>
     <style>
         .banner {
-            /* background-image: linear-gradient(50deg, #1817178a, #432b2b6c), url(images/banner10.jpg); */
-            background-image: linear-gradient(rgb(7, 79, 79), rgb(24, 24, 114), rgb(26, 128, 128));
+            background-image: linear-gradient(20deg, #9ce2eabd, #c2e3e9ba), url(images/banner10.jpg);
+            /* background-image: linear-gradient(rgb(7, 79, 79), rgb(24, 24, 114), rgb(26, 128, 128)); */
             background-size: cover;
             background-repeat: no-repeat;
             width: 100%;
@@ -30,51 +30,52 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm" style="background-color: whitesmoke;">
-            <div class="container">
-                <a class="navbar-brand my-3 fs-4" href="index.html">Apartment</a>
+        <nav class="navbar navbar-expand-lg" style="background-color: whitesmoke;">
+            <div class="container container-fluid ">
+                <a class="navbar-brand" href="index.html">Apartment</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item m-3">
-                        <a class="nav-link active" aria-current="page" href="all-property.html">All Property</a>
-                    </li>
-                    <li class="nav-item dropdown m-3">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Guides
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="area_guide.html">Area Guides</a></li>
-                            <li><a class="dropdown-item" href="#">Buy/Sell Guides</a></li>
-                            <li><a class="dropdown-item" href="#">Others</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item m-3">
-                        <a class="nav-link active" aria-current="page" href="add-property.html">Add Property</a>
-                    </li>
-                    <li class="nav-item dropdown m-3">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Home Loan</a></li>
-                            <li><a class="dropdown-item" href="#">Interior</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-
-                </ul>
-                <ul class="navbar-nav m-3">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="log-in.html"><i
-                                class="fa-solid fa-circle-user m-2"></i>logIn</a>
-                    </li>
-                </ul>
+                <div class="collapse navbar-collapse" style="margin-left: 38%;" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active" aria-current="page" href="all-property.html">All property</a>
+                        </li>
+                        <li class="nav-item dropdown mx-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Guides
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="area_guide.html">Area Guides</a></li>
+                                <li><a class="dropdown-item" href="#">Buy/Sell Guides</a></li>
+                                <li><a class="dropdown-item" href="#">Others</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active" href="add-property.html">Add property</a>
+                        </li>
+                        <li class="nav-item dropdown mx-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Home Loan</a></li>
+                                <li><a class="dropdown-item" href="#">Interior</a></li>
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav m-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="log-in.html"><i
+                                    class="fa-solid fa-circle-user m-2"></i>logIn</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -182,10 +183,74 @@
         </section>
         <!---------------------------------------------------------------
         -----------------------second-section end------------------------>
+        <!--------------------------third section start here---------------------------->
+        <div class="special-category">
+            <!-- <img src="images/foreign.webp" alt="" style="width:100%; height: 600px;"> -->
+            <h2>Our Special Categories</h2>
+            <div class="text-block row">
+                <div class="col">
+                    <div class="card">
+                        <img src="images/special categories/1.webp" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h4>Foreginer Guest</h4>
+                            <p>
+                                Need Furnished Accommodation! Best Place for Foreigner Guests.Explore our Affordable &
+                                Luxurious
+                                Furnished Apartments List.</p>
+                            <button class="btn"><a href="#"><i class="fa-solid fa-house-chimney-user"></i>Explore
+                                    All</a></button>
+                        </div>
 
-        <!-----------------------------------------------------------------------
-        ----------------------------third section start------------------------->
-        <section class="section-3">
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/special categories/female.webp" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h4>Female Student</h4>
+                            <p>
+                                Need Furnished Accommodation! Best Place for Foreigner Guests.Explore our Affordable &
+                                Luxurious
+                                Furnished Apartments List.</p>
+                            <button class="btn"><a href="#"><i class="fa-solid fa-house-chimney-user"></i>Explore
+                                    All</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/special categories/male.webp" class="img-fluid" alt="">
+                        <div class="card-body">
+                            <h4>Male Student</h4>
+                            <p>
+                                Need Furnished Accommodation! Best Place for Foreigner Guests.Explore our Affordable &
+                                Luxurious
+                                Furnished Apartments List.</p>
+                            <button class="btn"><a href="#"><i class="fa-solid fa-house-chimney-user"></i>Explore
+                                    All</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card">
+                        <img src="images/special categories/tourist.jpg" class="img-fluid" alt="" ">
+                        <div class=" card-body">
+                        <h4>Tourist</h4>
+                        <p>
+                            Need Furnished Accommodation! Best Place for Foreigner Guests.Explore our Affordable &
+                            Luxurious
+                            Furnished Apartments List.</p>
+                        <button class="btn"><a href="#"><i class="fa-solid fa-house-chimney-user"></i>Explore
+                                All</a></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+
+        <!--------  ---------------------------------------------------------------
+        ----------------------------fourth section start------------------------->
+        <section class="section-4">
             <h2>Why Apartment is the perfect choise ?</h2>
             <div class="all-article d-flex">
                 <article class="single-article px-2 py-3" style="margin-left: 100px;">

@@ -15,10 +15,6 @@ firebase.initializeApp(firebaseConfig);
 const auth = firebase.auth()
 
 
-
-
-
-
 let signInButton = document.getElementById('signInButton')
 signInButton.addEventListener("click", (e) => {
     e.preventDefault()
