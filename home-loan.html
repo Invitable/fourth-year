@@ -14,27 +14,27 @@
         rel="stylesheet">
     <title>Apartment</title>
     <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
         .banner {
             background-image: url(images/home_loan/5.jpg);
-            height: 600px;
+            height: 750px;
             width: 100%;
-            position: absolute;
+            position: relative;
         }
 
         .banner-text {
-            margin-left: 250px;
-            margin-top: 300px;
-            height: 200px;
-            width: 30%;
+            text-align: center;
+
+            padding-top: 200px;
+
         }
 
         .banner-text a {
             text-decoration: none;
             color: white;
-        }
-
-        .banner-text p {
-            margin: 5px;
         }
 
         /************************************************************
@@ -43,47 +43,28 @@
         /******************************************************************
         *********************footer*********************************************/
         footer {
-            margin-top: 40px;
-            height: 280px;
-            color: aliceblue;
-            background-color: #1e81b0;
+            height: 150px;
+            background-color: rgb(23, 17, 10);
         }
 
-        .end {
-            padding-top: 30px;
-            width: 80%;
-            margin-left: 10%;
+        .left {
+            padding-left: 100px;
+            padding-top: 60px;
         }
 
-        .tata {
-            width: 30%;
-            margin-left: 70px;
-            margin-right: 90px;
-        }
-
-        .tata h3 {
-            margin-left: 20px;
-        }
-
-        .tata p {
-            margin-left: 20px;
-            margin-top: 0px;
-            padding-top: 0px;
-            padding-bottom: 0px;
-            margin-bottom: 0px;
-        }
-
-        .tata a {
+        .left span a {
             text-decoration: none;
-            color: white;
+            color: rgb(189, 14, 14);
         }
 
-        .tata h5 {
-            margin: 10px 20px;
+        .right {
+            padding-left: 400px;
+            padding-top: 60px;
         }
 
-        .icon {
-            margin-left: 20px;
+        .right i {
+            color: red;
+            font-size: 30px;
         }
     </style>
 
@@ -99,7 +80,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" style="margin-left: 38%;" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" style="margin-left: 36%;" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item mx-3">
                             <a class="nav-link active" aria-current="page" href="all-property.html">All property</a>
@@ -111,8 +92,8 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="area_guide.html">Area Guides</a></li>
-                                <li><a class="dropdown-item" href="#">Buy/Sell Guides</a></li>
-                                <li><a class="dropdown-item" href="#">Others</a></li>
+                                <li><a class="dropdown-item" href="buy&sell-guide.html">Buy/Sell Guides</a></li>
+
                             </ul>
                         </li>
                         <li class="nav-item mx-3">
@@ -124,16 +105,16 @@
                                 Services
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Home Loan</a></li>
-                                <li><a class="dropdown-item" href="#">Interior</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="home-loan.html">Home Loan</a></li>
+                                <li><a class="dropdown-item" href="interior.html">Interior</a></li>
+                                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
                             </ul>
                         </li>
                     </ul>
                     <ul class="navbar-nav m-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="log-in.html"><i
-                                    class="fa-solid fa-circle-user m-2"></i>logIn</a>
+                            <a class="nav-link active" aria-current="page" href="register.html"><i
+                                    class="fa-solid fa-circle-user m-2"></i>Sign Up</a>
                         </li>
                     </ul>
                 </div>
@@ -144,7 +125,6 @@
     <!------------------------------------------------------------------------
     ---------------------------main sectio------------------------------------->
     <main>
-
         <div class="banner">
             <div class="banner-text">
                 <h1>HOME LOAN</h1>
@@ -155,109 +135,22 @@
             </div>
         </div>
 
-        <!-------------------------------------------------------------------------------------
-        ---------------------section2-------------------------------------------------------->
-        <section class="second-section">
-            <h1 class="heading-2">What you want?</h1>
-            <div class="all-category d-flex ">
-                <div class="singe-icon">
-                    <a href="furnished.html">
-                        <img src="images/furnice.webp" alt="">
-                        <h6> Furnished Apartment</h6>
-                    </a>
-                </div>
-                <div class="singe-icon">
-                    <a href="residental.html">
-                        <img src="images/residental.jpg" alt="">
-                        <h6> Residential Apartment</h6>
-                    </a>
-                </div>
-                <div class="singe-icon">
-                    <a href="#">
-                        <img src="images/comercial.jpg" alt="">
-                        <h6>Commercial Space</h6>
-                    </a>
-                </div>
-                <div class="singe-icon">
-                    <a href="#">
-                        <img src="images/office.png" alt="">
-                        <h6>Office Space</h6>
-                    </a>
-                </div>
-                <div class="singe-icon">
-                    <a href="#">
-                        <img src="images/luxury.jpg" alt="">
-                        <h6>Luxury Collection</h6>
-                    </a>
-                </div>
-                <div class="singe-icon">
-                    <a href="#">
-                        <img src="images/shop.png" alt="">
-                        <h6>Shop & Restaurants Space</h6>
-                    </a>
-                </div>
-            </div>
-        </section>
+
     </main>
     <!-------------------------------------------------------------------------------------------------
     -------------------------------------------------footer-star----------------------------------------->
-    <footer>
-        <div class="d-flex end">
-            <div class="tata">
-                <H3>Property Type</H3>
-                <a href="#">
-                    <p>Residential</p>
-                </a>
-                <a href="#">
-                    <p>Commercial Space</p>
-                </a>
-                <a href="#">
-                    <p> Office Space</p>
-                </a>
-                <a href="#">
-                    <p>Shop Space</p>
-                </a>
-                <a href="#">
-                    <p>Restaurants Space</p>
-                </a>
-                <a href="furnished.html">
-                    <p>Furnished Apartment</p>
-                </a>
-            </div>
-            <div class="tata">
-                <h3>Important Links </h3>
-                <a href="#">
-                    <p>About Us</p>
-                </a>
-                <a href="#">
-                    <p>Terms and Condition</p>
-                </a>
-                <a href="#">
-                    <p> FAQS</p>
-                </a>
-                <a href="#">
-                    <p>Contact Us</p>
-                </a>
-                <a href="#">
-                    <p>Our Team</p>
-                </a>
-                <a href="#">
-                    <p>Carrers</p>
-                </a>
-            </div>
-            <div class="tata">
-                <h3>Contact Us</h3>
-                <p>Address: Madina Market, Sylhet</p>
-                <p>Mobile: +880 1717 191 191</p>
-                <p> E-mail: apartment123@gmail.com</p>
-                <h5>Follow Us On</h5>
-                <div class="icon">
-                    <a href="#" class="m-1 m-lg-0"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#" class="m-1"> <i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#" class="m-1"><i class="fa-brands fa-square-instagram"></i></a>
-                    <a href="#" class="m-1"><i class="fa-brands fa-youtube"></i></a>
-                </div>
-            </div>
+    <footer class="d-flex">
+        <div class="left">
+            <span class="px-3"><a href="#">ABOUT US </a></span><span style="color: red;">|</span>
+            <span class="px-3"><a href="#">CONTACT US </a></span><span style="color: red;">|</span>
+            <span class="px-3"><a href="#">CAREERS </a></span><span style="color: red;">|</span>
+            <span class="px-3"><a href="#">TERMS & PRIVACY POLICY</a></span>
+        </div>
+        <div class="right">
+            <a href="#" class="m-1 m-lg-0"><i class="fa-brands fa-facebook px-2"></i></a>
+            <a href="#" class="m-1"> <i class="fa-brands fa-linkedin px-2"></i></a>
+            <a href="#" class="m-1"><i class="fa-brands fa-square-instagram px-2"></i></a>
+            <a href="#" class="m-1"><i class="fa-brands fa-youtube px-2"></i></a>
         </div>
     </footer>
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>

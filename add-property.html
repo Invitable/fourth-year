@@ -1,22 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
     <script src="https://kit.fontawesome.com/b993194f07.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link
         href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Poppins:ital,wght@0,500;1,500&family=Roboto+Condensed:wght@300&display=swap"
         rel="stylesheet">
-    <title>adding property</title>
+    <script src="https://kit.fontawesome.com/b993194f07.js" crossorigin="anonymous"></script>
     <style>
-        .nav-link i {
-            margin-right: 8px;
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+
+        .banner {
+            background-image: linear-gradient(50deg, #32383ccc, #35454fa7), url('images/buy-sell-5.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 600px;
+            position: relative;
+        }
+
+        .banner-text {
+            text-align: center;
+            padding-top: 150px;
+            height: 400px;
+
+        }
+
+        h1 {
+            color: rgba(184, 244, 248, 0.836);
+        }
+
+        h3 {
+            margin-top: 60px;
+            margin-bottom: 50px;
+            color: rgba(184, 244, 248, 0.836);
+        }
+
+        .btn {
+            background-color: rgb(163, 238, 238);
+        }
+
+        .btn a {
+            text-decoration: none;
+            color: black;
+            font-size: 15px;
+            font-weight: 700;
+
+        }
+
+        footer {
+            height: 150px;
+            background-color: rgb(23, 17, 10);
+        }
+
+        /****************************footer************************/
+        .left {
+            padding-left: 100px;
+            padding-top: 60px;
+        }
+
+        .left span a {
+            text-decoration: none;
+            color: rgb(240, 170, 170);
+        }
+
+        .right {
+            padding-left: 400px;
+            padding-top: 60px;
+        }
+
+        .right i {
+            color: rgb(227, 169, 169);
+            font-size: 30px;
         }
     </style>
 </head>
@@ -31,7 +93,7 @@
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" style="margin-left: 38%;" id="navbarSupportedContent">
+                <div class="collapse navbar-collapse" style="margin-left: 36%;" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item mx-3">
                             <a class="nav-link active" aria-current="page" href="all-property.html">All property</a>
@@ -43,8 +105,8 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="area_guide.html">Area Guides</a></li>
-                                <li><a class="dropdown-item" href="#">Buy/Sell Guides</a></li>
-                                <li><a class="dropdown-item" href="#">Others</a></li>
+                                <li><a class="dropdown-item" href="buy&sell-guide.html">Buy/Sell Guides</a></li>
+
                             </ul>
                         </li>
                         <li class="nav-item mx-3">
@@ -56,27 +118,58 @@
                                 Services
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Home Loan</a></li>
-                                <li><a class="dropdown-item" href="#">Interior</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                <li><a class="dropdown-item" href="home-loan.html">Home Loan</a></li>
+                                <li><a class="dropdown-item" href="interior.html">Interior</a></li>
+
                             </ul>
                         </li>
                     </ul>
                     <ul class="navbar-nav m-3">
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="log-in.html"><i
-                                    class="fa-solid fa-circle-user m-2"></i>logIn</a>
+                            <a class="nav-link active" aria-current="page" href="register.html"><i
+                                    class="fa-solid fa-circle-user m-2"></i>Sign Up</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
-    <main class="container">
 
+    <!-----------------------------main section------------------------------->
+    <main>
+        <form action="">
+            <div class="select  m-lg-3">
+                <label for="division">Catagory:</label>
+                <select class="form-select form-select-lg mb-3 division single-select"
+                    aria-label=".form-select-lg example">
+                    <option value="1">Furnished Apartment</option>
+                    <option selected>Residential Apartment</option>
+                    <option value="2">Commercial Space</option>
+                    <option value="3">Office Space</option>
+                    <option value="4">Shop & Resturant Space</option>
+                    <option value="5">TOURIST</option>
+                </select>
+            </div>
+        </form>
     </main>
-    <script src="bootstrap/bootstrap.min.js"></script>
-    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-----------------------------------footer---------------------------->
+    <footer class="d-flex">
+        <div class="left">
+            <span class="px-3"><a href="#">ABOUT US </a></span><span style="color: red;">|</span>
+            <span class="px-3"><a href="#">CONTACT US </a></span><span style="color: red;">|</span>
+            <span class="px-3"><a href="#">CAREERS </a></span><span style="color: red;">|</span>
+            <span class="px-3"><a href="#">TERMS & PRIVACY POLICY</a></span>
+        </div>
+        <div class="right">
+            <a href="#" class="m-1 m-lg-0"><i class="fa-brands fa-facebook px-2"></i></a>
+            <a href="#" class="m-1"> <i class="fa-brands fa-linkedin px-2"></i></a>
+            <a href="#" class="m-1"><i class="fa-brands fa-square-instagram px-2"></i></a>
+            <a href="#" class="m-1"><i class="fa-brands fa-youtube px-2"></i></a>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

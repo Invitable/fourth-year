@@ -86,51 +86,52 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm" style="background-color: whitesmoke;">
-            <div class="container">
-                <a class="navbar-brand my-3 fs-4" href="index.html">Apartment</a>
+        <nav class="navbar navbar-expand-lg" style="background-color: whitesmoke;">
+            <div class="container container-fluid ">
+                <a class="navbar-brand" href="index.html">Apartment</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <ul class="navbar-nav m-auto">
-                    <li class="nav-item m-3">
-                        <a class="nav-link active" aria-current="page" href="all-property.html">All Property</a>
-                    </li>
-                    <li class="nav-item dropdown m-3">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Guides
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Area Guides</a></li>
-                            <li><a class="dropdown-item" href="#">Buy/Sell Guides</a></li>
-                            <li><a class="dropdown-item" href="#">Others</a></li>
-                        </ul>
-                    </li>
-                    <li class="nav-item m-3">
-                        <a class="nav-link active" aria-current="page" href="add-property.html">Add Property</a>
-                    </li>
-                    <li class="nav-item dropdown m-3">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Services
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Home Loan</a></li>
-                            <li><a class="dropdown-item" href="#">Interior</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
+                <div class="collapse navbar-collapse" style="margin-left: 36%;" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active" aria-current="page" href="all-property.html">All property</a>
+                        </li>
+                        <li class="nav-item dropdown mx-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Guides
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="area_guide.html">Area Guides</a></li>
+                                <li><a class="dropdown-item" href="buy&sell-guide.html">Buy/Sell Guides</a></li>
 
-                </ul>
-                <ul class="navbar-nav m-3">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="log-in.html"><i
-                                class="fa-solid fa-circle-user m-2"></i>logIn</a>
-                    </li>
-                </ul>
+                            </ul>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active" href="add-property.html">Add property</a>
+                        </li>
+                        <li class="nav-item dropdown mx-3">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Services
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="home-loan.html">Home Loan</a></li>
+                                <li><a class="dropdown-item" href="interior.html">Interior</a></li>
+
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="navbar-nav m-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="register.html"><i
+                                    class="fa-solid fa-circle-user m-2"></i>Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </header>
@@ -329,65 +330,7 @@
     <!---------------------------------------------------------------------------------------------
     -----------------------------------------main section end----------------------------------->
 
-    <footer>
-        <div class="d-flex end">
-            <div class="tata">
-                <H3>Property Type</H3>
-                <a href="#">
-                    <p>Residential</p>
-                </a>
-                <a href="#">
-                    <p>Commercial Space</p>
-                </a>
-                <a href="#">
-                    <p> Office Space</p>
-                </a>
-                <a href="#">
-                    <p>Shop Space</p>
-                </a>
-                <a href="#">
-                    <p>Restaurants Space</p>
-                </a>
-                <a href="#">
-                    <p>Furnished Apartment</p>
-                </a>
-            </div>
-            <div class="tata">
-                <h3>Important Links </h3>
-                <a href="#">
-                    <p>About Us</p>
-                </a>
-                <a href="#">
-                    <p>Terms and Condition</p>
-                </a>
-                <a href="#">
-                    <p> FAQS</p>
-                </a>
-                <a href="#">
-                    <p>Contact Us</p>
-                </a>
-                <a href="#">
-                    <p>Our Team</p>
-                </a>
-                <a href="#">
-                    <p>Carrers</p>
-                </a>
-            </div>
-            <div class="tata">
-                <h3>Contact Us</h3>
-                <p>Address: Madina Market, Sylhet</p>
-                <p>Mobile: +880 1717 191 191</p>
-                <p> E-mail: apartment123@gmail.com</p>
-                <h5>Follow Us On</h5>
-                <div class="icon">
-                    <a href="#" class="m-1 m-lg-0"><i class="fa-brands fa-facebook"></i></a>
-                    <a href="#" class="m-1"> <i class="fa-brands fa-linkedin"></i></a>
-                    <a href="#" class="m-1"><i class="fa-brands fa-square-instagram"></i></a>
-                    <a href="#" class="m-1"><i class="fa-brands fa-youtube"></i></a>
-                </div>
-            </div>
-        </div>
-    </footer>
+
     <script src="bootstrap/bootstrap.min.js"></script>
     <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
