@@ -128,7 +128,8 @@ option {
 
 .special-category .card button {
 
-    background-color: rgb(16, 120, 120);
+    background-color: rgb(36, 93, 114);
+    color: white;
 }
 
 .special-category .card button:hover {
@@ -161,6 +162,11 @@ option {
     margin-right: 10%;
 }
 
+.all-article button {
+    background-color: rgb(36, 93, 114);
+    color: white;
+}
+
 .single-article {
     width: 25%;
     height: 380px;
@@ -189,7 +195,8 @@ footer {
     margin-top: 40px;
     height: 280px;
     color: aliceblue;
-    background-color: #1e81b0;
+    background-color: rgb(36, 93, 114);
+
 }
 
 .end {

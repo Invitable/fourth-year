@@ -47,7 +47,7 @@ option {
 }
 
 .select button {
-    background-color: rgb(21, 156, 205);
+    background-color: rgb(36, 93, 114);
     color: white;
 }
 
@@ -68,7 +68,7 @@ footer {
     margin-top: 40px;
     height: 280px;
     color: aliceblue;
-    background-color: #1e81b0;
+    background-color: rgb(36, 93, 114);
 }
 
 .end {

@@ -17,6 +17,8 @@
             font-family: 'Poppins', sans-serif;
         }
 
+        /********************************main******************************/
+
         .banner {
             background-image: linear-gradient(50deg, #32383ccc, #35454fa7), url('images/buy-sell-5.jpg');
             background-size: cover;
@@ -34,17 +36,19 @@
         }
 
         h1 {
-            color: rgba(184, 244, 248, 0.836);
+            color: whitesmoke;
         }
 
-        h3 {
+        p {
             margin-top: 60px;
             margin-bottom: 50px;
-            color: rgba(184, 244, 248, 0.836);
+            color: whitesmoke;
         }
 
         .btn {
-            background-color: rgb(163, 238, 238);
+            background-color: rgb(21, 56, 56);
+            margin-left: 100px;
+            width: 400px;
         }
 
         .btn a {
@@ -55,12 +59,32 @@
 
         }
 
+        .add-form {
+            padding-top: 100px;
+        }
+
+        .single-select {
+            width: 400px;
+            color: whitesmoke;
+        }
+
+        option {
+
+            color: rgb(21, 60, 95);
+        }
+
+        label {
+            width: 100px;
+            color: antiquewhite;
+        }
+
+        /****************************footer************************/
         footer {
             height: 150px;
             background-color: rgb(23, 17, 10);
         }
 
-        /****************************footer************************/
+
         .left {
             padding-left: 100px;
             padding-top: 60px;
@@ -137,20 +161,68 @@
 
     <!-----------------------------main section------------------------------->
     <main>
-        <form action="">
-            <div class="select  m-lg-3">
-                <label for="division">Catagory:</label>
-                <select class="form-select form-select-lg mb-3 division single-select"
-                    aria-label=".form-select-lg example">
-                    <option value="1">Furnished Apartment</option>
-                    <option selected>Residential Apartment</option>
-                    <option value="2">Commercial Space</option>
-                    <option value="3">Office Space</option>
-                    <option value="4">Shop & Resturant Space</option>
-                    <option value="5">TOURIST</option>
-                </select>
+        <div class="banner d-flex justify-content-around">
+            <div class="banner-text" style="width:30%;">
+                <h1>Rent or Sell
+                    Property Online</h1>
+                <p>If you want to addvertisement your property, you have to complete the form and press submit</p>
             </div>
-        </form>
+            <div class="add-form">
+                <form action="">
+                    <div class="d-flex mb-3">
+                        <label for="catagory">Catagorys: </label>
+                        <select class="form-select form-select-lg mb-3 division single-select bg-transparent "
+                            aria-label=".form-select-lg example">
+                            <option value="1">Furnished Apartment</option>
+                            <option selected>Residential Apartment</option>
+                            <option value="2">Commercial Space</option>
+                            <option value="3">Office Space</option>
+                            <option value="4">Shop & Resturant Space</option>
+                            <option value="5">TOURIST</option>
+                        </select>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <label for="division">Division: </label>
+                        <select class="form-select form-select-lg mb-3 division single-select bg-transparent"
+                            aria-label=".form-select-lg example">
+                            <option value="1">Dhaka</option>
+                            <option selected>Sylhet</option>
+                            <option value="2">Chittagong</option>
+                            <option value="3">Khula</option>
+                            <option value="4">Rajshahi</option>
+                            <option value="5">Rangpur</option>
+                        </select>
+                    </div>
+                    <div class="d-flex mb-3">
+                        <label for="area" class="form-label">Area:</label>
+                        <input type="text" id="area" class="form-control bg-transparent"
+                            style="width: 400px; color: whitesmoke;">
+                    </div>
+                    <div class="d-flex mb-3">
+                        <label for="amount" class="form-label">Amount:</label>
+                        <input type="text" id="amount" class="form-control bg-transparent"
+                            style="width: 400px; color: whitesmoke;">
+                    </div>
+                    <div class="mb-3 d-flex">
+                        <label for="textarea" class="form-label">Discription</label>
+                        <textarea class="form-control bg-transparent" id="textarea" rows="3"
+                            style="width: 400px; color: whitesmoke;"></textarea>
+                    </div>
+
+                    <div class=" input-group mb-3 d-flex">
+                        <label for="image" class="form-label">Image:</label>
+                        <input type="file" class="form-control bg-transparent" id="image"
+                            style="width: 300px;color: whitesmoke;">
+                        <label class="input-group-text " for="image">Upload</label>
+
+                    </div>
+                    <br>
+                    <button type="submit" class="btn btn-primary">Submit yor Advertisement</button>
+
+
+                </form>
+            </div>
+        </div>
     </main>
     <!-----------------------------------footer---------------------------->
     <footer class="d-flex">
