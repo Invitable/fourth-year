@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sign Up</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/b993194f07.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,7 +54,7 @@
         form a {
 
             text-decoration: none;
-            color: red;
+            color: rgb(12, 68, 96);
             font-weight: 700;
         }
 
@@ -127,9 +127,16 @@
                         <h3>Register Form</h3>
                     </div>
                     <div class="mb-3">
-                        <label for="r_username" class="input-label">username :</label>
+                        <label for="r_username" class="input-label">User-name :</label>
                         <input type="text" class="form-control" name="r_username" pattern="^[a-zA-Z ]+$" autofocus
                             required>
+
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="r_email" class="input-label"> Email :</label>
+                        <input id="inputEmailRegister" type="text" class="form-control" name="r_email"
+                            pattern="[a-z0-9]+@[a-z]+.[a-z]+$" autofocus required>
                     </div>
                     <div class="mb-3">
                         <label for="r_pass" class="input-label">Password :</label>
@@ -141,19 +148,15 @@
                         <input type="password" class="form-control" name="r_con_pass"
                             pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8}$/g" required>
                     </div>
+
                     <div class="mb-3">
-                        <label for="r_email" class="input-label"> Email :</label>
-                        <input id="inputEmailRegister" type="text" class="form-control" name="r_email"
-                            pattern="[a-z0-9]+@[a-z]+.[a-z]+$" autofocus required>
-                    </div>
-                    <div class="mb-3">
-                        <label for="r_mobile" class="input-label"> mobile :</label>
+                        <label for="r_mobile" class="input-label"> Mobile :</label>
                         <input type="text" class="form-control" name="r_mobile" pattern="(\+88)?01[3-9]\d{8}" autofocus
                             required>
                     </div>
 
                     <button id="signUpButton" type="submit" class="btn" name="submit">Sign Up</button>
-                    <a href="log-in.html">Sign in here</a>
+                    <a href="log-in.html" style="margin-left:40% ;">Sign in Here</a>
                 </form>
             </div>
         </div>
