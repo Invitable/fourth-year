@@ -6,6 +6,10 @@ body {
     margin-right: 8px;
 }
 
+.container .nav-item a:hover {
+    color: rgb(99, 169, 239);
+}
+
 /************************************************
 ********************banner*******************/
 .banner-text {

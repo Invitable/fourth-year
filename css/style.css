@@ -6,6 +6,12 @@ body {
     margin-right: 8px;
 }
 
+.container .nav-item a:hover {
+    color: rgb(99, 169, 239);
+}
+
+/*main section start here*/
+
 .banner {
     background-image: linear-gradient(20deg, #9ce2eabd, #c2e3e9ba), url(images/banner10.jpg);
     background-size: cover;
@@ -96,7 +102,7 @@ option {
     /* background-image: linear-gradient(whitesmoke, white, whitesmoke); */
     height: 600px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 60px;
 }
 
 .special-category h2 {
