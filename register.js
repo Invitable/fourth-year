@@ -52,7 +52,6 @@ auth.onAuthStateChanged(function (user) {
     if (user) {
 
         var email = user.email
-
         var users = document.getElementById("user")
         var text = document.createTextNode(email);
 
